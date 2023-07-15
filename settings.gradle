@@ -1,0 +1,3 @@
+rootProject.name = 'module16DevCICD'
+include 'github'
+
