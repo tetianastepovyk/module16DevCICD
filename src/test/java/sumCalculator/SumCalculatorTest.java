@@ -31,8 +31,6 @@ class SumCalculatorTest {
         //Then
         int expected = 6;
         Assertions.assertEquals(expected, actual);
-
-
     }
 
 
