@@ -27,7 +27,6 @@ class SumCalculatorTest {
     public void testThatSumOfNumberThreeWorksCorrect() {
         //When
         int actual = sumCalculator.sumCalculator(2);
-
         //Then
         int expected = 3;
         Assertions.assertEquals(expected, actual);
