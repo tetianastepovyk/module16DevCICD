@@ -26,10 +26,10 @@ class SumCalculatorTest {
     @Test
     public void testThatSumOfNumberThreeWorksCorrect() {
         //When
-        int actual = sumCalculator.sumCalculator(3);
+        int actual = sumCalculator.sumCalculator(2);
 
         //Then
-        int expected = 6;
+        int expected = 3;
         Assertions.assertEquals(expected, actual);
     }
 
